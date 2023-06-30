@@ -12,3 +12,5 @@ Step 4: If prompted, rename the new preset or overwrite the existing preset
 Step 5: If a problem occurs, use the generated presetsbackup.txt file. Ensure you delete old ones to avoid cluttering them!
 
 You can download the code to use and modify if you want, but the recommended option is the EXE, as it bundles all requirements and is easy to use.
+
+At the moment this program is WINDOWS ONLY, I do not have the testing environment nor the time to make a MacOS version
