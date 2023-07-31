@@ -133,7 +133,7 @@ if steam_path is not None:
         libraryfolders_content = file.read()
 
     # Find the Steam directory for Garry's Mod (app ID: 4000)
-    match = re.search(r"\"1\"\s+?\{\s+?\"path\"\s+?\"([^\"]+)\"", libraryfolders_content)
+    match = re.search(r"\"0\"\s+?\{\s+?\"path\"\s+?\"([^\"]+)\"", libraryfolders_content)
     if match:
         steam_directory = match.group(1)
         gmod_path = os.path.join(steam_directory, "steamapps", "common", "GarrysMod", "garrysmod", "settings")
